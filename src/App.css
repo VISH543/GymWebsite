@@ -1,0 +1,60 @@
+body {
+  font-family: 'Josefin Sans';
+  background-color: #FFFAFB;
+  
+}
+ 
+.search-btn:hover {
+  color: #FF2625 !important;
+  border: 1px solid #FF2625 !important;
+}
+
+.bodyPart-card {
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.exercise-card:hover,
+.bodyPart-card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.exercise-card {
+  width: 400px;
+  height: 445px;
+  background: #fff;
+  border-top: 4px solid #FF2625;
+  border-bottom-left-radius: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 10px;
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.exercise-card img {
+  height: 326px;
+}
+
+.detail-image {
+  width: 729px;
+  height: 742px;
+}
+.exercise-video {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 387px;
+  height: 381px;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width:1200px) {
+  .homeImages{
+    display: none !important;
+  }
+}
+
